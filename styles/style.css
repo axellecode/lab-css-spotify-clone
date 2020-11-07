@@ -6,3 +6,101 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+#logo {
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.menu {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+.main-image {
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-image h1 {
+  margin: 0 auto;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.main-image p {
+  margin: 0 auto;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #00b172;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+}
+
+.spotify img {
+  width: 100px;
+}
+
+section img {
+  display: flex;
+  flex-direction: row;
+}
+
+section h3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.Kanye {
+  background-color: #00b172;
+  margin: 20px;
+}
